@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(160, 146, 128);
+}
+
+/* NAVBAR */
+
+.rice{
+    visibility: hidden;
+}
+.seeds{
+    visibility: hidden;
+}
+.pulses{
+    visibility: hidden;
+}
+
+button{
+    visibility: hidden;
+}
+
+/* BODY */
+
+.main-heading h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.body-container{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 20px;
+    padding: 20px;
+}
+.body-container h3{
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:768px) {
+    button{
+        visibility: visible;
+    }
+    .rice{
+        visibility: visible;
+        text-align: center;
+    }
+    .seeds{
+        visibility: visible;
+        text-align: center;
+
+    }
+    .pulses{
+        visibility:  visible;
+        text-align: center;
+
+    }
+}
